@@ -1,0 +1,22 @@
+body{
+    background-image: url("../images/banana.jpg");
+}
+
+.lessgo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+.b {
+  width: 100%;
+ 
+}
+
+.btn{
+    background-color: green;
+    height: 80px;
+    
+}

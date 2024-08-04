@@ -1,0 +1,61 @@
+#btn-new {
+  background-color: #0047ab;
+  color: white;
+  border: solid 0.8px black;
+  border-radius: 20px;
+  font-size: 24px;
+  line-height: 40.5px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  padding-left: 40px;
+  position: absolute;
+  left: 974px;
+  top: 700px;
+  width: 200px;
+  height: 46px;
+  white-space: nowrap;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+#edit {
+  background-color: #708090;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #800;
+  border: solid 0.8px #800;
+  width: 75px;
+  height: 25px;
+}
+/* #price-display {
+  display: inline-block;
+} */
+
+#btn-cart:hover {
+  animation: bubble 0.7s ease-out;
+}
+
+#btn-new:hover {
+  animation: bubble 0.7s ease-out;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.main-content {
+  margin-left: 5%;
+}
+
+#btn-cartt {
+  top: 700px;
+}
