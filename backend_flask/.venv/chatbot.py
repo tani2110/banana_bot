@@ -19,7 +19,7 @@ def prompt(user_input):
     from langchain.prompts import ChatPromptTemplate
     from langchain.chains import LLMChain
 
-    llm = ChatOpenAI(temperature=0, model=llm_model, openai_api_key='MY-ENV')
+    llm = ChatOpenAI(temperature=0, model=llm_model, openai_api_key='MY_ENV')
 
     course_details="""
 
