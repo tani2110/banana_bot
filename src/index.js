@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from "./mainApp/pages/App";
-import P_App from "./mainApp/pages/P_App";
+//import P_App from "./mainApp/pages/P_App";
 import HeaderTop from "./mainApp/components/HeaderTop";
 import Group from "./mainApp/components/group";
 import Group1 from "./mainApp/components/group1";
@@ -19,17 +19,17 @@ import Sell from "./mainApp/pages/sell";
 import Chat from "./mainApp/pages/Chat";
 import Profile from "./mainApp/pages/Profile";
 import { Provider } from "react-redux";
-import store from "./mainApp/pages/store";
-import { PersistGate } from "redux-persist/integration/react";
-import { persistStore } from "redux-persist";
+// import store from "./mainApp/pages/store";
+// import { PersistGate } from "redux-persist/integration/react";
+// import { persistStore } from "redux-persist";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<HeaderTop />}>
       <Route index element={<App />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/products/:name" element={<P_App />} />
-      <Route path="/products/id/:id" element={<P_App />} />
+      // <Route path="/products/:name" element={<P_App />} />
+      // <Route path="/products/id/:id" element={<P_App />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/sell" element={<Sell />} />
