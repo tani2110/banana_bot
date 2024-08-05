@@ -1,15 +1,15 @@
-import React from "react";
-import "./App.css";
-import HeaderTop from "../components/HeaderTop";
-import P_MainC from "./P_MainC";
-import Footer from "../components/Footer";
+// import React from "react";
+// import "./App.css";
+// import HeaderTop from "../components/HeaderTop";
+// import P_MainC from "./P_MainC";
+// import Footer from "../components/Footer";
 
-function P_App() {
-    return (
-      <div>
-        {/* <HeaderTop /> */}
-        <P_MainC />
+// function P_App() {
+//     return (
+//       <div>
+//         {/* <HeaderTop /> */}
+//         <P_MainC />
      
-      </div>
-    )}
-export default P_App
+//       </div>
+//     )}
+// export default P_App
